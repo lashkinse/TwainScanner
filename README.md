@@ -1,8 +1,14 @@
 # TwainScanner
 Плагин сканирования через TWAIN, заменяющий стандартный в ПК ПВД.
 
+## Стек технологий
+
+* C#
+* Saraff.Twain.NET
+* Netpbm
+
 # Установка
-*Распакуйте архив с файлами программы (из релиза TwainScanner.zip) и замените ими оригинальные файлы в папке ПК ПВД*
+*Распакуйте архив с файлами программы (из релиза) и замените ими оригинальные файлы в папке ПК ПВД*
 
 # Настройка
 Настройки программы хранятся в файле TwainScanner.ini: <br />
@@ -22,7 +28,3 @@ ImageQuality=95 - *качество, перед сжатием в pdf* <br />
 После редактирования TwainScanner.ini желательно изменить порядок иницилизации протоколов на TWAIN->WIA в клиентских настройках ПК ПВД и  увеличить качество изображения. <br />
 ![](https://github.com/2bite/TwainScanner/raw/master/Screenshot_1.png) <br />
 ***Файл-Настройки-Сканирование и печать***
-
-# Стороннее ПО:
-Saraff.Twain - https://github.com/saraff-9EB1047A4BEB4cef8506B29BA325BD5A/Saraff.Twain.NET <br />
-Netpbm - http://netpbm.sourceforge.net/#translations
